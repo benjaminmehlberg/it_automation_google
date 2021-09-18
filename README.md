@@ -1,2 +1,2 @@
-# it_automation_google
-Scripts / Tasks from the IT Automation course by google
+# it_automation
+Practices for the course
