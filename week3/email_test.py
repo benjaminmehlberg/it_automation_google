@@ -13,7 +13,7 @@ smtpserver="smtp.gmail.com:465" # SSL port
 
 sender = "sender@example.com"
 recipient = "recipient@example.com"
-body = "Dear lala,\nthis is a email from me.\nThank you for your attention.\n\nBest regards"
+body = "Dear all,\nthis is an email.\nThank you for your attention.\n\nBest regards"
 
 msg = EmailMessage()
 msg["From"] = sender
