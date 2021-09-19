@@ -47,9 +47,8 @@ report_title = Paragraph("A Complete Inventory of the Cars", styles["h1"])
 # Table with content
 table_data = []
 for item in full_list:
-    print("Len item:", len(item), item)
-    for a, b in item:
-        table_data.append([a, b])
+    for k, v in item:
+        table_data.append([k, v])
 # Tale style
 table_style = [('GRID', (0,0), (-1,-1), 1, colors.black)]
 report_table = Table(data=table_data, style=table_style, hAlign="LEFT")
