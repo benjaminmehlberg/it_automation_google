@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-
+"""
+A script to send images to a webserver
+"""
 import requests
 import os
 
