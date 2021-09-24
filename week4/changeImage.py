@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-
+"""
+A script to manipulate image files
+"""
 from PIL import Image
 import os
 
