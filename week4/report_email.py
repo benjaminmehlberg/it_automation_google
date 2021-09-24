@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-A script to process text data from multiple files, generate PDF files and
-send these files via e-mail
+A script to process text data from multiple files, generate PDF files
+and send these files via e-mail
 """
 import os
 import datetime
@@ -9,7 +9,7 @@ import reports
 import emails
 
 descriptions_directory = os.path.expanduser("~/supplier-data/descriptions")
-os.chdir(descriptions.directory)
+os.chdir(descriptions_directory)
 dir_content = os.listdir()
 
 if __name__ == "__main__":
@@ -35,8 +35,8 @@ if __name__ == "__main__":
     sender = "automation@example.com"
     recipient = "".join([os.getlogin(), "@example.com"])
     subject = "Upload Completed - Online Fruit Store"
-    body = "All fruits are uploaded to our website successfully. A detailed list\
-           is attached to this email."
+    body = ("All fruits are uploaded to our website successfully. A "
+            "detailed list is attached to this email.")
     attachment = "/tmp/processed.pdf"
     # generate and send email report
     message = emails.generate_email(sender, recipient, subject, body, attachment)
