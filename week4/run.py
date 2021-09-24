@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-
+"""
+A script to process text files, format the retrieved data and send it to
+a webserver
+"""
 import requests
 import os
 import socket

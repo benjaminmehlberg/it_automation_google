@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-
+"""
+A script to perfom multiple system health checks and send notifications
+via e-mail
+"""
 import shutil
 import psutil
 import os

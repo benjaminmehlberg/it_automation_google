@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-
+"""
+A script to generate simple PDF files
+"""
 from reportlab.platypus import SimpleDocTemplate
 from reportlab.platypus import Paragraph, Spacer, Table, Image
 from reportlab.lib.styles import getSampleStyleSheet

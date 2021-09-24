@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-
+"""
+A script to process text data from multiple files, generate PDF files and
+send these files via e-mail
+"""
 import os
 import datetime
 import reports
