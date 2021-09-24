@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+"""
+A script to formate and store data in a dictionary in a PDF file
+"""
 from reportlab.platypus import SimpleDocTemplate
 from reportlab.platypus import Paragraph, Spacer, Table, Image
 from reportlab.lib.styles import getSampleStyleSheet
