@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
-from email.message import EmailMessage
+"""
+A script to send e-mails
+"""
 import os
 import mimetypes
 import smtplib
 import getpass
-
+from email.message import EmailMessage
 
 """
 smtpserver="smtp.gmail.com:587" # TLS port
@@ -25,10 +27,6 @@ msg.set_content(body)
 print(msg)
 
 mail_server = smtplib.SMTP_SSL(smtpserver)
-
-"""
-mail_server.set_debuglevel(1)
-"""
 
 mail_pass = getpass.getpass('Password? ')
 
