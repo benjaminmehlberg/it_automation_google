@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-
+"""
+A script to send emails
+"""
 import email.message
 import mimetypes
 import os.path
